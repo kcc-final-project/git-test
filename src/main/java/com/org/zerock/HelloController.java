@@ -16,4 +16,9 @@ public class HelloController {
 	   return "hello Cheolwon";
    }
    
+   @GetMapping("/chaewon")
+   public String tech() {
+	   return "chaewon";
+   }
+   
 }
