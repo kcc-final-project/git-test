@@ -15,4 +15,8 @@ public class HelloController {
    public String sang() {
 	   return "sanghk";
    }
+   @GetMapping("/hoho")
+   public String hoho() {
+	   return "hoho";
+   }
 }
