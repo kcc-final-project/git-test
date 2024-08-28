@@ -11,6 +11,14 @@ public class HelloController {
       return "hello";
    }
    
+   @GetMapping("/sanghk")
+   public String sang() {
+	   return "sanghk";
+   }
+   @GetMapping("/hoho")
+   public String hoho() {
+	   return "hoho";
+   }
    @GetMapping("/hello/cheolwon")
    public String helloWCheolwon() {
 	   return "hello Cheolwon";
