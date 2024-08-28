@@ -9,7 +9,10 @@
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         		
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+<<<<<<< HEAD
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
+=======
+>>>>>>> e07985f0ee4254348349f97bc488752ba09c4cea
         		
         <property name="java-output-path" value="target/classes"/>
         <property name="context-root" value="controller"/>
